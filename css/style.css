@@ -32,7 +32,7 @@
     text-decoration: none;
   }
   
-  /****** Header ***********/
+  /****** Footer ***********/
   .header div {
     display: flex;
     align-items: center;
@@ -51,4 +51,39 @@
     background: #EAEAEA;
     height: 50px;
     font-weight: 500;
+  }
+  .header__lieu i {
+    margin-right: 17px;
+    color: #353535;
+  }
+  
+  /****** Header ***********/
+  .footer {
+    background: #353535;
+    padding: 0px 25px;
+    font-weight: 500;
+  }
+  
+  .footer__logo {
+    padding-top: 22px;
+  }
+  .footer__logo img {
+    height: 27px;
+  }
+  
+  .footer__liens {
+    margin: 0;
+    padding: 16px 0 15px 0;
+    list-style: none;
+  }
+  .footer__liens a {
+    color: white;
+  }
+  .footer__liens i {
+    color: white;
+    font-size: 13px;
+    width: 20px;
+  }
+  .footer__liens li {
+    padding-bottom: 7px;
   }
