@@ -1,11 +1,9 @@
-/****** General ***********/
-
 $main-color: #9356DC;
 $secondary-color: #FF79DA;
 $third-color: #99E2D0;
-$main-bg-color: #FFF;
-$filter-bg-color: #F6F6F6;
+$main-bg-color: white;
 
+/****** General ***********/
 * {
 	font-family: "Roboto", sans-serif;
 }
@@ -23,6 +21,16 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 }
+.bouton-rose {
+	background: linear-gradient(0deg, #9356DC -11.44%, #FF79DA 123.93%);
+	box-shadow: 0px 4px 10px 0px #00000040;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 25px;
+	color: #FFF;
+	padding: 15px 20px;
+	display: inline-block;
+}
 .main-container {
 	width: 100%;
 	max-width: 100%;
@@ -33,7 +41,7 @@ a {
 	color: $secondary-color;
 	text-decoration: none;
 }
-/****** Footer ***********/
+/****** Header ***********/
 .header {
 	div {
 		display: flex;
@@ -57,7 +65,7 @@ a {
 		color: #353535;
 	}
 }
-/****** Header ***********/
+/****** Footer ***********/
 .footer {
 	background: #353535;
 	padding: 0px 25px;
@@ -74,12 +82,12 @@ a {
 	padding: 16px 0 15px 0;
 	list-style: none;
 	a {
-		color: white;
+		color: $main-bg-color;
 	}
 	i {
-		color: white;
-        font-size:13px;
-        width:20px;
+		color: $main-bg-color;
+		font-size: 13px;
+		width: 20px;
 	}
 	li {
 		padding-bottom: 7px;
