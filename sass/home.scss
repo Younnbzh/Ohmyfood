@@ -7,11 +7,13 @@
 		padding-top: 39px;
 		font-weight: 700;
 		font-size: 24px;
+		padding: 39px 75px 0px 75px;
 	}
 	h3 {
-		margin: 30px 0 0 0;
+		margin: 20px 0 0 0;
 		font-weight: 300;
 		font-size: 18px;
+		padding: 0px 15px;
 	}
 	a {
 		margin-top: 27px;
@@ -28,10 +30,10 @@
 	}
 }
 .fonctionnement__step {
-	box-shadow: 0px 4px 15px 0px #00000026;
+	box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
 	background: #F6F6F6;
 	border-radius: 20px;
-	max-width: 335px;
+	max-width: 100%;
 	display: flex;
 	align-items: center;
 	margin-left: 12px;
@@ -41,7 +43,7 @@
 .fonctionnement__number {
 	height: 24px;
 	width: 24px;
-	background: #9356DC;
+	background: $main-color;
 	color: #FFF;
 	border-radius: 20px;
 	display: flex;
@@ -58,19 +60,18 @@
 	i {
 		width: 30px;
 	}
-    &--icon1 {
-        font-size: 20px;
-        color: #7E7E7E;
-    }
-    &--icon2 {
-        font-size: 16px;
-        color: #7E7E7E;
-    }
-    &--icon3 {
-        font-size: 18px;
-    }
 }
-
+.fonctionnement__texte--icon1 {
+	font-size: 20px;
+	color: #7E7E7E;
+}
+.fonctionnement__texte--icon2 {
+	font-size: 16px;
+	color: #7E7E7E;
+}
+.fonctionnement__texte--icon3 {
+	font-size: 18px;
+}
 .restaurants {
 	background: #F6F6F6;
 	padding: 0px 20px 66px 20px;
@@ -82,20 +83,21 @@
 	}
 }
 .card {
-	max-width: 490px;
+	max-width: 100%;
 	border-radius: 15px;
 	background: #FFF;
 	position: relative;
 	margin-bottom: 18px;
 	img {
 		width: 100%;
-		height: 231px;
+		height: 174px;
 		object-fit: cover;
 		border-radius: 15px 15px 0px 0px;
 	}
 }
 .card__text {
 	padding: 16px 0 0 13px;
+	color: #000;
 }
 .card__title {
 	font-size: 18px;
@@ -112,9 +114,9 @@
 	position: absolute;
 	right: 13px;
 	top: 13px;
-	background: #99E2D0;
+	background: $third-color;
 	color: #008766;
-	box-shadow: 0px 2px 4px 0px #00000026;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
 	font-size: 14px;
 	font-weight: 500;
 	width: 80px;
@@ -123,26 +125,4 @@
 	align-items: center;
 	justify-content: center;
 	border-radius: 2px;
-}
-.card__heart {
-	i {
-		font-size: 22px;
-		position: absolute;
-		right: 20px;
-		bottom: 30px;
-		color: transparent;
-		-webkit-text-stroke-width: 1px;
-		-webkit-text-stroke-color: #101010;
-	}
-}
-.card__heart--selected {
-	i {
-		font-size: 22px;
-		position: absolute;
-		right: 20px;
-		bottom: 30px;
-		background: linear-gradient(to top, #FF79DA, #9356DC);
-		background-clip: text;
-		color: transparent;
-	}
 }
