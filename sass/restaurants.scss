@@ -25,16 +25,17 @@
 		font-family: "Shrikhand", serif;
 		font-weight: 400;
 		font-size: 28px;
+		text-align:left;
 	}
 	.card__heart {
 		.first-heart {
-			top: 40px;
-			right: 41px;
+			top: -20px;
+			right: -20px;
 			bottom: unset;
 		}
 		.second-heart {
-			top: 40px;
-			right: 41px;
+			top: -20px;
+			right: -20px;
 			bottom: unset;
 		}
 	}
